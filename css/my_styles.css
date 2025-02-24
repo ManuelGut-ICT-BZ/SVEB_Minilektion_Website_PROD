@@ -1,0 +1,40 @@
+:root{
+    --bs-light-primary: #eaccf6;
+}
+
+.title-background{
+    background-image: url(./../assets/img/chalkboard.jpg);
+}
+
+.sortable-card{
+    background-color: var(--bs-light-primary);
+}
+
+.custom-img {
+    max-height: 65vh;
+    width: auto;
+    height: auto;
+    max-width: 80vw;
+  }
+
+.custom-subtitle{
+    color: black;
+    display: inline-block;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3.custom-subtitle{
+    margin-top: 50px;
+}
+
+.bullet-container {
+    text-align: center; /* Zentriert den Text */
+}
+
+.bullet-container > ul {
+    display: inline-block; /* Hält die Liste zentriert */
+    text-align: left; /* Sorgt dafür, dass die Bulletpoints ausgerichtet bleiben */
+    list-style-position: inside; /* Optional: Falls die Bulletpoints weiter innen sein sollen */
+}
