@@ -2,6 +2,27 @@
     --bs-light-primary: #eaccf6;
 }
 
+p, div.card, li, .btn{
+    font-size: 1.2rem;
+}
+
+@media (min-width: 2000px) {
+    body{
+        font-size: 1.4rem;
+    }
+
+    p, div.card, li, .btn{
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 800px) {
+    #program .list-group{
+        max-width: 60%;
+        margin: auto;
+    }
+}
+
 .title-background{
     background-image: url(./../assets/img/chalkboard.jpg);
 }
@@ -33,7 +54,7 @@ h3.custom-subtitle{
     text-align: center; /* Zentriert den Text */
 }
 
-.bullet-container > ul {
+.bullet-container > ul, .bullet-container > ol {
     display: inline-block; /* Hält die Liste zentriert */
     text-align: left; /* Sorgt dafür, dass die Bulletpoints ausgerichtet bleiben */
     list-style-position: inside; /* Optional: Falls die Bulletpoints weiter innen sein sollen */
