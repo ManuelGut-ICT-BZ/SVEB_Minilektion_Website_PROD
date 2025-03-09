@@ -6,6 +6,10 @@ p, div.card, li, .btn{
     font-size: 1.2rem;
 }
 
+.video{
+    max-height: 75vh;
+}
+
 @media (min-width: 2000px) {
     body{
         font-size: 1.4rem;
