@@ -1,65 +1,74 @@
-:root{
-    --bs-light-primary: #eaccf6;
+:root {
+  --bs-light-primary: #eaccf6;
 }
 
-p, div.card, li, .btn{
-    font-size: 1.2rem;
+p,
+div.card,
+li,
+.btn {
+  font-size: 1.2rem;
 }
 
-.video{
-    max-height: 75vh;
+.video {
+  max-height: 75vh;
 }
 
 @media (min-width: 2000px) {
-    body{
-        font-size: 1.4rem;
-    }
+  body {
+    font-size: 1.4rem;
+  }
 
-    p, div.card, li, .btn{
-        font-size: 1.8rem;
-    }
+  p,
+  div.card,
+  li,
+  .btn {
+    font-size: 1.8rem;
+  }
 }
 
 @media (min-width: 800px) {
-    #program .list-group{
-        max-width: 60%;
-        margin: auto;
-    }
+  #program .list-group {
+    max-width: 60%;
+    margin: auto;
+  }
 }
 
-.title-background{
-    background-image: url(./../assets/img/chalkboard.jpg);
+.title-background {
+  background-image: url(./../assets/img/chalkboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.sortable-card{
-    background-color: var(--bs-light-primary);
+.sortable-card {
+  background-color: var(--bs-light-primary);
 }
 
 .custom-img {
-    max-height: 65vh;
-    width: auto;
-    height: auto;
-    max-width: 80%;
-  }
-
-.custom-subtitle{
-    color: black;
-    display: inline-block;
-    border-bottom: 3px solid black;
-    padding-bottom: 5px;
-    margin-top: 30px;
+  max-height: 65vh;
+  width: auto;
+  height: auto;
+  max-width: 80%;
 }
 
-h3.custom-subtitle{
-    margin-top: 50px;
+.custom-subtitle {
+  color: black;
+  display: inline-block;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+h3.custom-subtitle {
+  margin-top: 50px;
 }
 
 .bullet-container {
-    text-align: center; /* Zentriert den Text */
+  text-align: center; /* Zentriert den Text */
 }
 
-.bullet-container > ul, .bullet-container > ol {
-    display: inline-block; /* Hält die Liste zentriert */
-    text-align: left; /* Sorgt dafür, dass die Bulletpoints ausgerichtet bleiben */
-    list-style-position: inside; /* Optional: Falls die Bulletpoints weiter innen sein sollen */
+.bullet-container > ul,
+.bullet-container > ol {
+  display: inline-block; /* Hält die Liste zentriert */
+  text-align: left; /* Sorgt dafür, dass die Bulletpoints ausgerichtet bleiben */
+  list-style-position: inside; /* Optional: Falls die Bulletpoints weiter innen sein sollen */
 }
